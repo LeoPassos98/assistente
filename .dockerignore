@@ -1,0 +1,32 @@
+# Ignora a pasta de dependências do Node
+node_modules
+
+# Ignora logs do npm e yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Ignora a pasta de build do NestJS
+dist
+
+# Ignora arquivos e pastas do Git
+.git
+.gitignore
+
+# Ignora variáveis de ambiente locais
+.env
+.env.*
+!src/.env.example 
+
+# Cache e arquivos específicos de IDEs/editores (opcional, mas bom)
+.eslintcache
+.stylelintcache
+.vscode-test
+.idea
+
+# Outros
+Dockerfile
+README.md
+# Adicione aqui outros arquivos ou pastas que não devem ir para a imagem Docker
